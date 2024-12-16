@@ -18,10 +18,13 @@ input[type='number'] {
 }
 
 .my-custom-pagination {
-  display: flex;
   justify-content: center;
   gap: 20px; /* Espacio entre bullets */
   margin-top: 10px; /* Posición de los bullets */
+}
+
+.payment-options-slide {
+  height: 150px !important;
 }
 
 .my-custom-pagination .swiper-pagination-bullet {
@@ -34,4 +37,8 @@ input[type='number'] {
 .my-custom-pagination .swiper-pagination-bullet-active {
   background-color: #2c5df3; /* Cambia el color para indicar el slide activo */
   opacity: 1;
+}
+
+.teu-footer {
+  padding: 0px !important;
 }
