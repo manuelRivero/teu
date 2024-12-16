@@ -32,7 +32,7 @@ module.exports = {
         xl: '32px',
         normal: '28px',
         small: '24px',
-        smaller: '24px',
+        smaller: '20px',
         little: '18px',
         xs: '16px',
         tight: '12px',
@@ -43,7 +43,7 @@ module.exports = {
           500: '#F94074',
         },
         customPurple: {
-          500: '#5A56EC',
+          500: '#97A6FF',
           600: '#1E1349',
         },
         customBlue: {

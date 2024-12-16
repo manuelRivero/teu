@@ -2,6 +2,7 @@ import React from 'react';
 import ClientHero from '../components/client/ClientHero';
 import SimulateYourCredit from '../components/client/SimulateYourCredit';
 import FlexiblePlans from '../components/client/FlexiblePlans';
+import CustomerReviews from '../components/client/CustomerReviews';
 
 export default function Client() {
   return (
@@ -9,6 +10,7 @@ export default function Client() {
       <ClientHero />
       <SimulateYourCredit />
       <FlexiblePlans />
+      <CustomerReviews />
     </div>
   );
 }
