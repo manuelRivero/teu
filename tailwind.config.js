@@ -33,7 +33,8 @@ module.exports = {
         smaller: '20px',
         little: '18px',
         xs: '16px',
-        tight: '12px',
+        '2xs': '15px',
+        tight: '14px',
       },
       colors: {
         customPink: {
