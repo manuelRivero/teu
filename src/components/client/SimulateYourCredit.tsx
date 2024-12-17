@@ -3,9 +3,9 @@ import CustomButton from '../shared/CustomButton';
 
 export default function SimulateYourCredit() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center px-5">
       <div className="flex flex-col space-y-7 justify-center items-center max-w-[480px]">
-        <h2 className="text-customPurple-600 font-bold text-2xl uppercase">
+        <h2 className="text-customPurple-600 font-bold text-center lg:text-right text-2xl uppercase">
           Simula tu crédito
         </h2>
         <p className="text-customPurple-600 text-normal">Monto a solicitar:</p>

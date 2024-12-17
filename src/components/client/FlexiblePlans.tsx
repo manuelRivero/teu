@@ -72,12 +72,19 @@ const verticalCardElements: CustomVerticalCardProps[] = [
 
 export default function FlexiblePlans() {
   return (
-    <div className="pt-[300px] flex flex-col space-y-12">
-      <div className="relative bg-customYellow-500 rounded-tl-[70px] xl:h-[680px] py-12 xl:py-0">
+    <div className="pt-12 xl:pt-[300px] flex flex-col space-y-12">
+      <div className="relative bg-customYellow-500 lg:rounded-tl-[70px] xl:h-[680px] py-12 xl:py-0">
         <div className="xl:absolute xl:top-0 xl:left-0 xl:-translate-y-1/2 w-full grid grid-cols-1 xl:grid-cols-2 justify-center gap-6">
-          <div className="relative flex justify-center">
+          <div className="relative sm:flex justify-center">
+            <div className="block sm:hidden">
+              <h2 className="text-customPurple-600 text-center font-bold text-2xl uppercase rotate-[-20deg] w-fit">
+                Planes
+                <br />
+                flexibles
+              </h2>
+            </div>
             <img src={phone} alt="phone" />
-            <div className="absolute top-0 left-20">
+            <div className="hidden sm:block absolute top-0 left-20">
               <h2 className="text-customPurple-600 text-center font-bold text-2xl uppercase rotate-[-35deg] w-fit">
                 Planes
                 <br />
@@ -86,7 +93,7 @@ export default function FlexiblePlans() {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <p className="text-customPurple-600 text-normal text-center max-w-[413px]">
+            <p className="text-customPurple-600 text-normal text-center max-w-[413px] mt-5 mb-10 sm:my-0">
               La mejor tasa de interés para que le saques provecho a tu dinero.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">

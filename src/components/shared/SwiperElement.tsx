@@ -30,8 +30,8 @@ export default function SwiperElement({
             <div className="absolute top-[12%] xl:top-0 left-[10%] xl:left-0 xl:translate-x-1/4 xl:translate-y-1/3">
               <img src={teu} alt="" />
             </div>
-            <div className="absolute bottom-0 left-0 w-full h-[110px] flex justify-center items-center px-3">
-              <p className="text-tight sm:text-xs text-customPurple-600 leading-4">
+            <div className="absolute bottom-0 left-0 w-full h-[140px] sm:h-[110px] flex justify-center items-center px-3">
+              <p className="text-xs text-customPurple-600 leading-4">
                 “{truncateString(review)}”{' '}
                 <span className="font-bold">- {author}</span>
               </p>

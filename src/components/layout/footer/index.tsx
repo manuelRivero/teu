@@ -2,11 +2,12 @@ import React from 'react';
 import instaLogo from '../../../assets/images/logos/insta-logo.svg';
 import fbLogo from '../../../assets/images/logos/fb-logo.svg';
 import logoTeu from '../../../assets/images/logos/logo-teu-main.svg';
+import logoTeuRes from '../../../assets/images/logos/teu-footer-res.svg';
 
 export default function Footer() {
   return (
     <footer className="container bg-customPurple-600 w-full flex justify-center px-0 teu-footer">
-      <div className="grid grid-cols-1 xl:grid-cols-3  px-32 w-fit border-t border-t-white pb-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 px-10 sm:px-32 w-fit border-t border-t-white pb-20">
         <div className="flex space-x-[200px] pt-10">
           <div className="flex flex-col space-y-5">
             <div>
@@ -78,7 +79,8 @@ export default function Footer() {
               </p>
             </div>
             <div>
-              <img src={logoTeu} alt="logoTeu" />
+              <img src={logoTeu} alt="logoTeu" className="hidden sm:block" />
+              <img src={logoTeuRes} alt="logoTeu" className="block sm:hidden" />
             </div>
             <div>
               <p className="text-white text-little font-bold leading-snug">

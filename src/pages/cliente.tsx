@@ -7,7 +7,7 @@ import PaymentOptions from '../components/client/PaymentOptions';
 
 export default function Client() {
   return (
-    <div className="container flex flex-col space-y-20 pt-36">
+    <div className="container flex flex-col space-y-10 pt-36">
       <ClientHero />
       <SimulateYourCredit />
       <FlexiblePlans />

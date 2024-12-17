@@ -33,8 +33,8 @@ const reviewsData: SwiperElementProps[] = [
 
 export default function CustomerReviews() {
   return (
-    <div className="flex flex-col justify-center items-center space-y-12 pt-56">
-      <h2 className="text-customPurple-600 font-bold text-2xl uppercase">
+    <div className="flex flex-col justify-center items-center space-y-12 pt-12 xl:pt-56">
+      <h2 className="text-center sm:text-right text-customPurple-600 font-bold text-2xl uppercase">
         RESEÑAS DE CLIENTES
       </h2>
       <div className="relative rounded-xl xl:bg-customPurple-500 xl:max-w-[1075px] w-full">

@@ -20,9 +20,9 @@ const options: { element1: string; element2: string }[] = [
 
 export default function PaymentOptions() {
   return (
-    <div className="bg-customPurple-600 sm:rounded-tr-[70px] p-20 flex flex-col space-y-20">
+    <div className="bg-customPurple-600 sm:rounded-tr-[70px] p-10 pb-20 sm:p-20 flex flex-col space-y-20">
       <div>
-        <h2 className="text-[50px] text-white font-bold max-w-[494px] uppercase">
+        <h2 className="text-2xl sm:text-2xxl text-white font-bold sm:max-w-[494px] uppercase mb-5">
           Diferentes opciones de pago
         </h2>
         <p className="text-normal text-white">
