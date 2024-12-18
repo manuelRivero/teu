@@ -21,7 +21,7 @@ export default function CustomButton({
     <button
       onClick={() => cb()}
       type="button"
-      className={`bg-${bgColor} w-${width} hover:scale-110 transition-all px-12 py-3 rounded-xl text-${textColor} text-${textColor} text-center font-bold`}
+      className={`bg-${bgColor} w-${width} hover:scale-110 transition-all px-12 py-3 rounded-xl text-${textSize} text-${textColor} text-center font-bold`}
     >
       {text}
     </button>

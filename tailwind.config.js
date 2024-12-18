@@ -76,5 +76,9 @@ module.exports = {
     {
       pattern: /(bg|text|border)-custom(Purple|Pink|Orange|Yellow|Green|Blue)/,
     },
+    {
+      pattern:
+        /(text)-custom(tight|smaller|little|xs|2xs|small|normal|xl|2xl|2xxl|3xl|9xl)/,
+    },
   ],
 };

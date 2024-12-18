@@ -1,7 +1,7 @@
 import React from 'react';
-import review1 from '../../assets/images/client/review1.png';
-import review2 from '../../assets/images/client/review2.png';
-import review3 from '../../assets/images/client/review3.png';
+import review1 from '../../assets/images/gestor/review1.png';
+import review2 from '../../assets/images/gestor/review2.png';
+import review3 from '../../assets/images/gestor/review3.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -9,39 +9,39 @@ import SwiperElement, { SwiperElementProps } from '../shared/SwiperElement';
 
 const reviewsData: SwiperElementProps[] = [
   {
-    author: 'Erika N',
+    author: 'Celedonia R',
     width: '1000',
     imgPerson: review1,
     review:
-      'Agradezco a TEU por su apoyo financiero y confianza en mi negocio. Sus préstamos me han permitido crecer y su servicio al cliente es excelente. Estoy muy agradecido por esta oportunidad.',
+      'En mi experiencia, la financiera TEU destaca como una de las mejores que he conocido. Además del excelente trato que ofrecen, me han brindado los intereses más bajos que he encontrado. La rapidez con la que aprueban los créditos es impresionante. Sin duda, la recomiendo ampliamente. Agradezco profundamente el excelente servicio que nos brindan.',
   },
   {
-    author: 'Franco L',
-    width: '426',
+    author: 'Jetzain H',
+    width: '605',
     imgPerson: review2,
     review:
-      'TEU es una gran oportunidad de microcréditos accesible de inmediato...',
+      'La financiera TEU es una excelente opción, con políticas de comisiones y tasas...',
   },
   {
-    author: 'Rosalba M',
-    width: '408',
+    author: 'Juan D',
+    width: '644',
     imgPerson: review3,
     review:
-      'La financiera TEU me ha ayudado con un crédito para mi negocio ...',
+      'Mi experiencia con la financiera SOMOS ha sido excelente. Destaco su transparencia...',
   },
 ];
 
-export default function CustomerReviews() {
+export default function ManagerReviews() {
   return (
-    <div className="flex flex-col justify-center items-center space-y-12 pt-12 xl:pt-56">
+    <div className="flex flex-col justify-center items-center space-y-12 pt-12 pb-24">
       <h2 className="text-center sm:text-right text-customPurple-600 font-bold text-2xl uppercase">
-        RESEÑAS DE CLIENTES
+        RESEÑAS DE GESTORES
       </h2>
       <div className="relative rounded-xl xl:bg-customPurple-500 xl:max-w-[1075px] w-full">
         <Swiper
           pagination={{
             clickable: true,
-            el: '.pagination-2',
+            el: '.pagination-1',
           }}
           modules={[Pagination]}
         >
@@ -56,7 +56,7 @@ export default function CustomerReviews() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex absolute bottom-5 xl:bottom-10 w-full xl:w-fit xl:right-1/2 pagination-2 my-custom-pagination z-10" />
+        <div className="flex absolute bottom-5 xl:bottom-10 w-full xl:w-fit xl:right-1/2 pagination-1 my-custom-pagination z-10" />
       </div>
     </div>
   );

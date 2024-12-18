@@ -62,11 +62,11 @@ export default function GestorHero() {
         >
           <div className="px-4 py-10 h-full">
             <div className="flex flex-col space-y-6 justify-between h-full">
-              <h1 className="text-white text-2xxl font-black uppercase leading-[70px]">
+              <h1 className="text-white text-2xl font-black uppercase leading-[50px]">
                 Recibe pagos semanales RECURRENTES
               </h1>
               <div>
-                <p className="text-white text-xl leading-10">
+                <p className="text-white text-normal leading-10">
                   <span className="font-bold">Gana comisiones </span>
                   por cada crédito que otorgues, y gana aún más
                   <span className="font-bold">

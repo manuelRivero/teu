@@ -8,7 +8,7 @@ export default function WinUpTo() {
         <h2 className="text-customPurple-600 font-bold text-center lg:text-right text-2xl uppercase">
           Llega a ganar hasta
         </h2>
-        <div className="bg-customPurple-600 w-fit py-3 px-10 rounded-xl text-white text-2xl text-center font-black">
+        <div className="bg-customPurple-600 w-fit py-3 px-5 sm:px-10 rounded-xl text-white text-2xl text-center font-black">
           <p>$ 28,000.00</p>
         </div>
         <p className="text-customPurple-600 font-bold text-center lg:text-right text-2xl uppercase">

@@ -10,9 +10,9 @@ import CustomCard, { CardProps } from '../shared/CustomCard';
 import CustomVerticalCard, {
   CustomVerticalCardProps,
 } from '../shared/CustomVerticalCard';
-import document from '../../assets/images/icons/document.svg';
-import approved from '../../assets/images/icons/approved.svg';
-import idDoc from '../../assets/images/icons/idDoc.svg';
+import list from '../../assets/images/icons/list.svg';
+import alert from '../../assets/images/icons/alert.svg';
+import pencil from '../../assets/images/icons/pencil.svg';
 
 const cardElements: CardProps[] = [
   {
@@ -56,26 +56,26 @@ const cardElements2: CardProps[] = [
 ];
 const verticalCardElements: CustomVerticalCardProps[] = [
   {
-    icon: document,
-    alt: 'document',
-    text: 'Sin importar tu historial crediticio, te ayudamos a mejorarlo.',
+    icon: list,
+    alt: 'list',
+    text: 'Obtén información necesaria para tu gestión desde la app.',
   },
   {
-    icon: approved,
-    alt: 'approved',
-    text: 'Proceso rápido y sencillo, 100% digital.',
+    icon: alert,
+    alt: 'alert',
+    text: 'Recordatorios de pago automatizados a tus clientes.',
   },
   {
-    icon: idDoc,
-    alt: 'idDoc',
-    text: 'Solo ten a la mano tu identificación oficial vigente.',
+    icon: pencil,
+    alt: 'pencil',
+    text: 'Evaluación automática para adquirir clientes.',
   },
 ];
 
 export default function RecurringIncome() {
   return (
-    <div className="pt-12 pb-80 flex flex-col space-y-12">
-      <div className="relative bg-customPurple-500 lg:rounded-t-[70px] pt-12 pb-96 flex flex-col items-center">
+    <div className="py-12 xl:pb-64 flex flex-col space-y-12">
+      <div className="relative bg-customPurple-500 lg:rounded-t-[70px] py-12 xl:pb-96 flex flex-col items-center">
         <div className="flex flex-col justify-center items-center h-fit">
           <h2 className="text-customPurple-600 text-center font-bold text-2xl w-fit max-w-[504px] uppercase leading-[50px]">
             Tus ingresos recurrentes
@@ -84,7 +84,7 @@ export default function RecurringIncome() {
             Tu portafolio te trae ganancias constantes.
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center my-5">
           <img src={coins} alt="coins" />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
@@ -119,9 +119,9 @@ export default function RecurringIncome() {
             ))}
           </div>
         </div>
-        <div className="hidden xl:absolute xl:block bottom-0 left-0 translate-y-[40%] w-full">
+        <div className="block mt-20 xl:mt-0 xl:absolute xl:block xl:bottom-0 xl:left-0 xl:translate-y-[40%] w-full">
           <div className="flex flex-col justify-center items-center space-y-12">
-            <h2 className="text-customPurple-600 text-center font-bold text-2xl w-fit max-w-[504px] uppercase leading-[50px]">
+            <h2 className="text-customPurple-600 text-center font-bold text-2xl w-fit max-w-[504px] px-5 uppercase leading-[50px]">
               Ahora es más fácil gestionar tu cartera
             </h2>
             <div className="flex flex-col md:flex-row space-y-8 md:space-x-8 md:space-y-0">
@@ -139,7 +139,7 @@ export default function RecurringIncome() {
           </div>
         </div>
       </div>
-      <div className="block xl:hidden">
+      {/* <div className="block xl:hidden">
         <div className="flex flex-col justify-center items-center space-y-24">
           <h2 className="text-customPurple-600 text-center font-bold text-2xl w-fit max-w-[504px] uppercase leading-[50px]">
             Ahora es más fácil gestionar tu cartera
@@ -157,7 +157,7 @@ export default function RecurringIncome() {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

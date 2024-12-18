@@ -1,9 +1,14 @@
 import * as React from 'react';
 import { type HeadFC, type PageProps } from 'gatsby';
 import Client from './cliente';
+import { navigate } from '@reach/router';
+
 // import { SEO } from "../components/seo";
 
 const IndexPage: React.FC<PageProps> = () => {
+  React.useEffect(() => {
+    navigate('/cliente/', { replace: true });
+  }, []);
   return (
     <div>
       <Client />
