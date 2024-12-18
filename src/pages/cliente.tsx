@@ -4,6 +4,8 @@ import SimulateYourCredit from '../components/client/SimulateYourCredit';
 import FlexiblePlans from '../components/client/FlexiblePlans';
 import CustomerReviews from '../components/client/CustomerReviews';
 import PaymentOptions from '../components/client/PaymentOptions';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
 
 export default function Client() {
   return (
@@ -16,3 +18,5 @@ export default function Client() {
     </div>
   );
 }
+
+export const Head: HeadFC = () => <SEO title="Teu | Cliente" description="" />;

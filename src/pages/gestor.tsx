@@ -4,6 +4,8 @@ import WinUpTo from '../components/gestor/WinUpTo';
 import RecurringIncome from '../components/gestor/RecurringIncome';
 import AtYourPace from '../components/gestor/AtYourPace';
 import ManagerReviews from '../components/gestor/ManagerReviews';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
 
 export default function Gestor() {
   return (
@@ -16,3 +18,5 @@ export default function Gestor() {
     </div>
   );
 }
+
+export const Head: HeadFC = () => <SEO title="Teu | Gestor" description="" />;
