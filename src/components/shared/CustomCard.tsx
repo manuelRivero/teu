@@ -5,6 +5,7 @@ export interface CardProps {
   alt: string;
   textNormal: string;
   textBold: string;
+  uppercase?: boolean;
 }
 
 export default function CustomCard({
@@ -12,11 +13,14 @@ export default function CustomCard({
   alt,
   textNormal,
   textBold,
+  uppercase = false,
 }: CardProps) {
   return (
-    <div className="flex flex-row items-center space-x-7 bg-white w-[276px] h-[87px] px-6 py-4 rounded-xl drop-shadow-lg">
+    <div className="flex flex-row items-center space-x-7 bg-white w-[286px] h-[87px] px-6 py-4 rounded-xl drop-shadow-lg">
       <img src={icon} alt={alt} />
-      <p className="text-xs text-customPurple-600">
+      <p
+        className={`text-2xs text-customPurple-600 leading-4 ${uppercase && 'uppercase'}`}
+      >
         {textNormal}
         <span className="font-bold">{textBold}</span>
       </p>

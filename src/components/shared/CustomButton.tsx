@@ -6,6 +6,7 @@ interface Props {
   text: string;
   cb: () => void;
   width?: string;
+  textSize?: string;
 }
 
 export default function CustomButton({
@@ -14,12 +15,13 @@ export default function CustomButton({
   text,
   cb,
   width = 'fit',
+  textSize = 'small',
 }: Props) {
   return (
     <button
       onClick={() => cb()}
       type="button"
-      className={`bg-${bgColor} w-${width} hover:scale-110 transition-all px-12 py-3 rounded-xl text-${textColor} text-xs md:text-small text-center font-bold`}
+      className={`bg-${bgColor} w-${width} hover:scale-110 transition-all px-12 py-3 rounded-xl text-${textSize} text-${textColor} text-center font-bold`}
     >
       {text}
     </button>

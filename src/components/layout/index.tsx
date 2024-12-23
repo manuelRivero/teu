@@ -1,6 +1,7 @@
-import React, { ReactNode, useEffect, useRef, useState } from "react";
-import Header from "./header";
-import Footer from "./footer";
+import React, { ReactNode, useEffect, useRef, useState } from 'react';
+import Header from './header';
+import Footer from './footer';
+import BurgerMenu from './header/BurgerMenu';
 
 interface LayoutProps {
   children: ReactNode;

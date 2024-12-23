@@ -10,9 +10,6 @@ module.exports = {
         // you can configure the container to be centered
         center: true,
 
-        // or have default horizontal padding
-        padding: '16px',
-
         // default breakpoints but with 40px removed
         screens: {
           sm: '600px',
@@ -28,14 +25,16 @@ module.exports = {
       fontSize: {
         '9xl': '98px',
         '3xl': '60px',
+        '2xxl': '48px',
         '2xl': '40px',
         xl: '32px',
         normal: '28px',
         small: '24px',
-        smaller: '24px',
+        smaller: '20px',
         little: '18px',
         xs: '16px',
-        tight: '12px',
+        '2xs': '15px',
+        tight: '14px',
       },
       colors: {
         customPink: {
@@ -43,7 +42,7 @@ module.exports = {
           500: '#F94074',
         },
         customPurple: {
-          500: '#5A56EC',
+          500: '#97A6FF',
           600: '#1E1349',
         },
         customBlue: {
@@ -76,6 +75,10 @@ module.exports = {
   safelist: [
     {
       pattern: /(bg|text|border)-custom(Purple|Pink|Orange|Yellow|Green|Blue)/,
+    },
+    {
+      pattern:
+        /(text)-custom(tight|smaller|little|xs|2xs|small|normal|xl|2xl|2xxl|3xl|9xl)/,
     },
   ],
 };
