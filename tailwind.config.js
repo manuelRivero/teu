@@ -35,6 +35,7 @@ module.exports = {
         xs: '16px',
         '2xs': '15px',
         tight: '14px',
+        smallest: '12px',
       },
       colors: {
         customPink: {
@@ -78,7 +79,7 @@ module.exports = {
     },
     {
       pattern:
-        /(text)-custom(tight|smaller|little|xs|2xs|small|normal|xl|2xl|2xxl|3xl|9xl)/,
+        /(text)-custom(tight|smaller|smallest|little|xs|2xs|small|normal|xl|2xl|2xxl|3xl|9xl)/,
     },
   ],
 };

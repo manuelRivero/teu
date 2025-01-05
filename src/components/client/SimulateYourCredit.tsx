@@ -60,10 +60,10 @@ export default function SimulateYourCredit() {
         </div>
       </div>
       <div className="hidden xl:block absolute top-16 left-0">
-        <img src={left} alt="" />
+        <img src={left} alt="left" />
       </div>
       <div className="hidden xl:block absolute top-1/4 right-0">
-        <img src={right} alt="" />
+        <img src={right} alt="right" />
       </div>
     </div>
   );

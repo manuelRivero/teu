@@ -23,12 +23,12 @@ export default function SwiperElement({
   return (
     <div className="xl:grid xl:grid-cols-3 flex justify-center">
       <div className="relative w-fit max-w-[353px] col-span-1">
-        <img src={imgPerson} alt="" style={{ width: `${width}px` }} />
+        <img src={imgPerson} alt="Teu Person" style={{ width: `${width}px` }} />
         <div className="absolute top-0 left-0 w-full h-full px-6 py-16 xl:py-6 flex items-end justify-center">
           <div className="relative">
-            <img src={content} alt="" />
+            <img src={content} alt="content" />
             <div className="absolute top-[12%] xl:top-0 left-[10%] xl:left-0 xl:translate-x-1/4 xl:translate-y-1/3">
-              <img src={teu} alt="" />
+              <img src={teu} alt="teu" />
             </div>
             <div className="absolute bottom-0 left-0 w-full h-[140px] flex justify-center items-center px-3">
               <p className="text-xs text-customPurple-600 leading-4">

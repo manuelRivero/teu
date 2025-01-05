@@ -23,10 +23,10 @@ export default function WinUpTo() {
         </div>
       </div>
       <div className="hidden xl:block absolute top-0 left-0">
-        <img src={left} alt="" width="70%" />
+        <img src={left} alt="left" width="70%" />
       </div>
       <div className="hidden xl:block absolute top-1/4 right-0">
-        <img src={right} alt="" />
+        <img src={right} alt="right" />
       </div>
     </div>
   );
