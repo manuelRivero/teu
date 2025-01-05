@@ -11,6 +11,7 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState<boolean>(false);
 
   const handleShowMenu = () => setShowMenu((prev: boolean) => !prev);
+  console.log(pathname);
 
   return (
     <div>
@@ -32,14 +33,18 @@ export default function Header() {
             />
             <CustomButton
               text={
-                pathname === '/cliente/'
+                pathname === '/cliente/' || pathname === '/'
                   ? 'Solicitar'
                   : 'Convertirme en promoTeur'
               }
               textColor="customPurple-600"
               bgColor="customYellow-500"
               cb={() => {}}
-              textSize={pathname === '/cliente/' ? undefined : 'smallest'}
+              textSize={
+                pathname === '/cliente/' || pathname === '/'
+                  ? undefined
+                  : 'smallest'
+              }
             />
           </div>
           <div

@@ -19,7 +19,7 @@ export default function CustomVerticalCard({
         {text}
       </p>
       <div
-        className={`absolute top-0 left-1/2 w-[116px] h-[116px] bg-${pathname === '/client/' ? 'customPurple-500' : 'customYellow-500'} rounded-[40px] -translate-y-1/3 -translate-x-1/2 flex justify-center items-center`}
+        className={`absolute top-0 left-1/2 w-[116px] h-[116px] bg-${pathname === '/cliente/' || pathname === '/' ? 'customPurple-500' : 'customYellow-500'} rounded-[40px] -translate-y-1/3 -translate-x-1/2 flex justify-center items-center`}
       >
         <img src={icon} alt={alt} />
       </div>
