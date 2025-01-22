@@ -42,3 +42,14 @@ input[type='number'] {
 .teu-footer {
   padding: 0px !important;
 }
+
+select {
+  -webkit-appearance: none; /* Para navegadores basados en WebKit */
+  -moz-appearance: none; /* Para Firefox */
+  appearance: none;
+}
+
+select option {
+  background-color: white; /* Fondo blanco del dropdown */
+  color: black; /* Texto negro */
+}

@@ -17,8 +17,9 @@ export default function WinUpTo() {
             Mensuales <span className="text-customBlue-500">*</span>
           </p>
           <p className="text-customPurple-600 text-tight text-center">
-            *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            *Las ganancias mensuales dependen del desempeño de la cartera y
+            nivel de colocación, por lo que pueden variar mes a mes y de
+            promoteur a promoteur
           </p>
         </div>
       </div>

@@ -41,7 +41,7 @@ export default function ClientHero() {
                   bgColor="customYellow-500"
                   text="Solicita tu crédito"
                   textColor="customPurple-600"
-                  cb={() => {}}
+                  cb={() => scrollToSection('solicitar')}
                 />
               </div>
             </div>

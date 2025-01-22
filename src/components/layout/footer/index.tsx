@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from '@reach/router';
 import instaLogo from '../../../assets/images/logos/insta-logo.svg';
 import fbLogo from '../../../assets/images/logos/fb-logo.svg';
-import logoTeu from '../../../assets/images/logos/logo-teu-main.svg';
+import logoTeu from '../../../assets/images/logos/logo-teu-yellow.svg';
 import logoTeuRes from '../../../assets/images/logos/teu-footer-res.svg';
 import { Link } from 'gatsby';
 
@@ -89,12 +89,11 @@ export default function Footer() {
               </p>
             </div>
             <div>
-              <img src={logoTeu} alt="logoTeu" className="hidden sm:block" />
-              <img src={logoTeuRes} alt="logoTeu" className="block sm:hidden" />
+              <img src={logoTeu} alt="logoTeu" />
             </div>
             <div>
               <p className="text-white text-little font-bold leading-snug">
-                © 2023 TEU TECHNOLOGIES
+                © 2025 TEU TECHNOLOGIES
               </p>
               <p className="text-white text-little font-bold leading-snug">
                 Todos los Derechos Reservados.

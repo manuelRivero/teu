@@ -17,36 +17,42 @@ import idDoc from '../../assets/images/icons/idDoc.svg';
 const cardElements: CardProps[] = [
   {
     icon: lineup,
+    complementText: 'paga cada vez menos por tu prestamo.',
     alt: 'lineup',
     textNormal: 'Tasas Desde ',
     textBold: '2.3% semanal',
   },
   {
     icon: response,
+    complementText: 'Aprobación de tu solicitud al momento.',
     alt: 'response',
     textNormal: '',
     textBold: 'Respuesta inmediata',
   },
   {
     icon: dollar,
+    complementText: 'Creces tu como cliente y linea de crédito también.',
     alt: 'dollar',
     textNormal: 'Préstamos de hasta ',
     textBold: '$40,000 pesos',
   },
   {
     icon: renew,
+    complementText: 'No más complicaciones al momento de renovar.',
     alt: 'renew',
     textNormal: '',
     textBold: 'Renovaciones sencillas',
   },
   {
     icon: callendar,
+    complementText: 'Pagos flexibles para pagar a tu ritmo.',
     alt: 'callendar',
     textNormal: 'Pagando hasta en',
     textBold: '36 semanas',
   },
   {
     icon: attention,
+    complementText: 'te recordamos para que no te atrases en tu pago.',
     alt: 'attention',
     textNormal: '',
     textBold: 'Atención personalizada',
@@ -104,6 +110,7 @@ export default function FlexiblePlans() {
                   icon={element.icon}
                   textNormal={element.textNormal}
                   textBold={element.textBold}
+                  complementText={element.complementText}
                 />
               ))}
             </div>
