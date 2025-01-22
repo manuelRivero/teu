@@ -1,25 +1,38 @@
 import React, { useState } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 import { useLocation } from '@reach/router';
 import logoTeu from '../../../assets/images/logos/logo-teu-main.svg';
 import burgerMenu from '../../../assets/images/icons/burgerMenu.svg';
 import CustomLink from '../../shared/CustomLink';
 import CustomButton from '../../shared/CustomButton';
 import BurgerMenu from './BurgerMenu';
+import { scrollToSection } from '../../../utils/ScrollToSection';
 
 export default function Header() {
   const { pathname } = useLocation();
   const [showMenu, setShowMenu] = useState<boolean>(false);
 
   const handleShowMenu = () => setShowMenu((prev: boolean) => !prev);
-  console.log(pathname);
+
+  const handleScrollToTop = () => {
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: true,
+    });
+  };
 
   return (
     <div>
       <header
         className={`absolute lg:fixed flex justify-center container top-0 left-1/2 -translate-x-1/2 pt-8 z-20`}
       >
-        <div className="flex space-x-20 xl:space-x-[200px] items-center border border-customGray-200 bg-white rounded-lg px-8 py-2">
-          <img src={logoTeu} alt="Teu" />
+        <div className="flex space-x-20 xl:space-x-[140px] items-center border border-customGray-200 bg-white rounded-lg px-8 py-2">
+          <img
+            src={logoTeu}
+            alt="Teu"
+            className="max-w-[120px] cursor-pointer"
+            onClick={handleScrollToTop}
+          />
           <div className="hidden lg:flex items-center space-x-10">
             <CustomLink
               href="/cliente/"
@@ -39,7 +52,7 @@ export default function Header() {
               }
               textColor="customPurple-600"
               bgColor="customYellow-500"
-              cb={() => {}}
+              cb={() => scrollToSection('solicitar')}
               textSize={
                 pathname === '/cliente/' || pathname === '/'
                   ? undefined

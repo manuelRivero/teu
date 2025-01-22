@@ -2,6 +2,7 @@ import React from 'react';
 import CustomButton from '../shared/CustomButton';
 import heroImg from '../../assets/images/client/hero-img.png';
 import heroImgRes from '../../assets/images/client/hero-img-res.png';
+import { scrollToSection } from '../../utils/ScrollToSection';
 
 export default function ClientHero() {
   return (
@@ -74,7 +75,7 @@ export default function ClientHero() {
                     bgColor="customYellow-500"
                     text="Solicita tu crédito"
                     textColor="customPurple-600"
-                    cb={() => {}}
+                    cb={() => scrollToSection('solicitar')}
                   />
                 </div>
               </div>

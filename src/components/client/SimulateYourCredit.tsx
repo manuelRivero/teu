@@ -5,7 +5,7 @@ import right from '../../assets/images/right.png';
 
 export default function SimulateYourCredit() {
   return (
-    <div className="relative">
+    <div className="relative" id="solicitar">
       <div className="flex justify-center items-center px-5">
         <div className="flex flex-col space-y-7 justify-center items-center max-w-[480px]">
           <h2 className="text-customPurple-600 font-bold text-center lg:text-right text-2xl uppercase">
