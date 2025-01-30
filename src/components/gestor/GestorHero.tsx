@@ -39,7 +39,7 @@ export default function GestorHero() {
               <div className="pt-8">
                 <CustomButton
                   bgColor="customYellow-500"
-                  text="Convertirme en promoTeur"
+                  text="Ser PromoTeur"
                   textColor="customPurple-600"
                   cb={() => {}}
                 />
@@ -77,7 +77,7 @@ export default function GestorHero() {
                 <div className="flex justify-center pt-8">
                   <CustomButton
                     bgColor="customYellow-500"
-                    text="Convertirme en promoTeur"
+                    text="Ser PromoTeur"
                     textColor="customPurple-600"
                     cb={() => {}}
                     textSize="xs"

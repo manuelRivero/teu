@@ -124,7 +124,7 @@ export default function RecurringIncome() {
             <h2 className="text-customPurple-600 text-center font-bold text-2xl w-fit max-w-[504px] px-5 uppercase leading-[50px]">
               Ahora es más fácil gestionar tu cartera
             </h2>
-            <div className="flex flex-col md:flex-row space-y-8 md:space-x-8 md:space-y-0">
+            <div className="flex flex-col md:flex-row space-y-12 md:space-x-8 md:space-y-0">
               {verticalCardElements.map(
                 (element: CustomVerticalCardProps, index: number) => (
                   <CustomVerticalCard
@@ -139,25 +139,6 @@ export default function RecurringIncome() {
           </div>
         </div>
       </div>
-      {/* <div className="block xl:hidden">
-        <div className="flex flex-col justify-center items-center space-y-24">
-          <h2 className="text-customPurple-600 text-center font-bold text-2xl w-fit max-w-[504px] uppercase leading-[50px]">
-            Ahora es más fácil gestionar tu cartera
-          </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-8">
-            {verticalCardElements.map(
-              (element: CustomVerticalCardProps, index: number) => (
-                <CustomVerticalCard
-                  key={`${element.alt}-${index}`}
-                  alt={element.alt}
-                  icon={element.icon}
-                  text={element.text}
-                />
-              ),
-            )}
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

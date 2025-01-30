@@ -48,16 +48,11 @@ export default function Header() {
               text={
                 pathname === '/cliente/' || pathname === '/'
                   ? 'Solicitar'
-                  : 'Convertirme en promoTeur'
+                  : 'Ser PromoTeur'
               }
               textColor="customPurple-600"
               bgColor="customYellow-500"
               cb={() => scrollToSection('solicitar')}
-              textSize={
-                pathname === '/cliente/' || pathname === '/'
-                  ? undefined
-                  : 'smallest'
-              }
             />
           </div>
           <div

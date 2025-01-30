@@ -9,11 +9,11 @@ import SwiperElement, { SwiperElementProps } from '../shared/SwiperElement';
 
 const reviewsData: SwiperElementProps[] = [
   {
-    author: 'Celedonia R',
+    author: 'Yazmin L',
     width: '1000',
     imgPerson: review1,
     review:
-      'En mi experiencia, la financiera TEU destaca como una de las mejores que he conocido. Además del excelente trato que ofrecen, me han brindado los intereses más bajos que he encontrado. La rapidez con la que aprueban los créditos es impresionante. Sin duda, la recomiendo ampliamente. Agradezco profundamente el excelente servicio que nos brindan.',
+      'Teu es la mejor opción ya que da la respuesta más rápida a los clientes y sin tanto tramite o tanto tiempo de espera, lo que hace que se le de un mejor servicio al cliente y en cuanto el sueldo es bastante atractivo! Trabajar en Teu sin duda es una de las mejores financieras hoy en día y a decir verdad hasta el momento en una de las mejores que he trabajado.',
   },
   {
     author: 'Jetzain H',
@@ -27,7 +27,7 @@ const reviewsData: SwiperElementProps[] = [
     width: '644',
     imgPerson: review3,
     review:
-      'Mi experiencia con la financiera SOMOS ha sido excelente. Destaco su transparencia...',
+      'Mi experiencia con la financiera Teu ha sido excelente. Destaco su transparencia...',
   },
 ];
 
