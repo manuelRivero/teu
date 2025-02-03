@@ -20,14 +20,14 @@ const reviewsData: SwiperElementProps[] = [
     width: '605',
     imgPerson: review2,
     review:
-      'La financiera TEU es una excelente opción, con políticas de comisiones y tasas...',
+      'En general teu es un excelente opción laboral que te permitirá alcanzar tus metas financieras, personales y profesionales en corto plazo, con un buen ambiente laboral y sueldos superiores a la competencia.',
   },
   {
     author: 'Juan D',
     width: '644',
     imgPerson: review3,
     review:
-      'Mi experiencia con la financiera Teu ha sido excelente. Destaco su transparencia...',
+      'Teu me ayuda a crecer profesionalmente, generando experiencia con la que he desarrollado mis habilidades, gracias a la experiencia y apoyo de mi jefe, que me ayudan a obtener buenos ingresos. En general Teu es una excelente opción laboral que te permitirá alcanzar tus metas financieras,  personales y profesionales en corto plazo, con un buen ambiente laboral y sueldos superiores a la competencia.',
   },
 ];
 
@@ -37,7 +37,7 @@ export default function ManagerReviews() {
       <h2 className="text-center sm:text-right text-customPurple-600 font-bold text-2xl uppercase">
         RESEÑAS DE GESTORES
       </h2>
-      <div className="relative rounded-xl xl:bg-customPurple-500 xl:max-w-[1075px] w-full">
+      <div className="relative rounded-2xl xl:bg-customPurple-500 xl:max-w-[1075px] w-full">
         <Swiper
           pagination={{
             clickable: true,
