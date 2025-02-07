@@ -1,5 +1,5 @@
 import React from 'react';
-import OgImage from '../images/OgImage.jpg';
+import OgImage from '../images/OgImage.png';
 
 interface Props {
   title: string;
@@ -23,7 +23,7 @@ export const SEO = ({ title, description }: Props) => {
       />
       <meta
         property="og:image"
-        content={`https://teu-ws6i.onrender.com/` + OgImage}
+        content={`https://teu-ws6i.onrender.com` + OgImage}
       />
       <meta name="og:type" content="website" />
     </>
