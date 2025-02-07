@@ -1,5 +1,5 @@
 import React from 'react';
-import OgImage from '../images/OgImage.png';
+import OgImage from '../images/OgImage.jpg';
 
 interface Props {
   title: string;
