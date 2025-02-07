@@ -23,7 +23,7 @@ export const SEO = ({ title, description }: Props) => {
       />
       <meta
         property="og:image"
-        content={`https://teu-ws6i.onrender.com` + OgImage}
+        content={`https://teu-ws6i.onrender.com/` + OgImage}
       />
       <meta name="og:type" content="website" />
     </>
